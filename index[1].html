@@ -1,171 +1,54 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SD & TT Storage LLC</title>
+  <link rel="icon" type="image/png" href="logo.png" />
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
+      margin: 0;
       background-color: #ffffff;
       color: #333;
     }
     header {
-      display: flex;
-      align-items: center;
-      padding: 20px;
-      background-color: #f9f9f9;
-    }
-    header img {
-      height: 60px;
-      margin-right: 20px;
-    }
-    nav {
-      margin-left: auto;
-    }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #007BFF;
-    }
-    .hero {
-      padding: 60px 20px;
-      text-align: center;
-      background: #e9f1ff;
-    }
-    .hero h1 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-    .hero p {
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
-    .hero a {
-      background-color: #007BFF;
+      background: #333;
       color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .logo {
+      max-width: 100px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    .content {
+      padding: 2rem;
+      text-align: center;
+    }
+    .button {
       padding: 10px 20px;
+      background: #333;
+      color: white;
       text-decoration: none;
       border-radius: 5px;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .section-title {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-    .units, .features {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    .unit, .feature {
-      flex: 1 1 250px;
-      background: #f2f2f2;
-      padding: 20px;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #f9f9f9;
-    }
-    form input, form textarea {
-      width: 100%;
-      margin-bottom: 10px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    form button {
-      padding: 10px 20px;
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="SD & TT Storage LLC Logo">
-    <nav>
-      <a href="#about">About</a>
-      <a href="#units">Units</a>
-      <a href="#booking">Booking</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <img src="logo.png" alt="SD & TT Storage Logo" class="logo" />
+    <h1>SD & TT Storage LLC</h1>
+    <p>Salem, Oregon — Open 24 Hours (Mon–Fri)</p>
   </header>
-
-  <div class="hero">
-    <h1>Welcome to SD & TT Storage LLC</h1>
-    <p>Secure and Convenient Storage Solutions in Salem, Oregon</p>
-    <a href="#booking">Rent a Unit Online</a>
+  <div class="content">
+    <h2>Secure, Convenient Self-Storage</h2>
+    <p>Clean, drive-up access units. Gated entry. Surveillance. Online booking available.</p>
+    <a href="https://your-booking-link.com" class="button">Book a Unit Online</a>
   </div>
-
-  <section id="about">
-    <h2 class="section-title">About Us</h2>
-    <p>SD & TT Storage LLC provides self-storage rental services in Salem, Oregon. We offer various unit sizes, drive-up access, gated entry, 24/7 surveillance, and optional climate-controlled units to ensure convenience and safety.</p>
-  </section>
-
-  <section id="units">
-    <h2 class="section-title">Our Storage Units</h2>
-    <div class="units">
-      <div class="unit">
-        <h3>Small Unit</h3>
-        <p>Perfect for boxes, small furniture, and personal items.</p>
-      </div>
-      <div class="unit">
-        <h3>Medium Unit</h3>
-        <p>Ideal for apartment contents, office supplies, or seasonal items.</p>
-      </div>
-      <div class="unit">
-        <h3>Large Unit</h3>
-        <p>Great for furniture, appliances, and full-house storage.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="booking">
-    <h2 class="section-title">Book Online</h2>
-    <p>Reserve your storage unit quickly and easily online.</p>
-    <a href="#" style="display:inline-block;margin-top:10px;">Book Now</a>
-  </section>
-
-  <section>
-    <h2 class="section-title">Hours & Location</h2>
-    <p><strong>Location:</strong> Salem, Oregon</p>
-    <p><strong>Hours:</strong> Open 24 hours, Monday–Friday</p>
-  </section>
-
-  <section id="contact">
-    <h2 class="section-title">Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <section>
-    <h2 class="section-title">Why Choose Us</h2>
-    <div class="features">
-      <div class="feature">24/7 Access (M–F)</div>
-      <div class="feature">Drive-up Units</div>
-      <div class="feature">Climate-Controlled Options</div>
-      <div class="feature">Secure Gated Entry</div>
-      <div class="feature">Clean & Maintained</div>
-      <div class="feature">Online Booking</div>
-    </div>
-  </section>
-
-  <footer>
-    &copy; 2025 SD & TT Storage LLC. All rights reserved.
-  </footer>
 </body>
 </html>
